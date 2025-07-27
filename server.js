@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const { v4: uuidv4 } = require("uuid");
 
-const app = express();s
+const app = express();
 app.use(cors({
     origin: "*"
 }));
